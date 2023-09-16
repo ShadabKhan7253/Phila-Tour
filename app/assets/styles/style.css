@@ -1,0 +1,8 @@
+$lightblack: #ccc;
+$yellow: #fc3;
+
+.large-div {
+  h1 {
+    color: $yellow;
+  }
+}
