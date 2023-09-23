@@ -1,0 +1,15 @@
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem 0;
+
+  @mixin atSmall {
+    margin: 2rem 0;
+    font-size: 3.875rem;
+  }
+
+  &__white {
+    color: $white;
+  }
+}
