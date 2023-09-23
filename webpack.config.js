@@ -12,8 +12,23 @@ module.exports = {
     filename: 'app.bundled.js',
     path: path.resolve(__dirname, 'app'), // bring the absolute path
   },
+  devServer: {
+    watchFiles: {
+      paths: ['./app/**/*.html'],
+      options: {
+        ignored: './app/assets/*',
+      },
+    },
+    static: {
+      directory: path.join(__dirname, 'app'),
+      watch: false,
+    },
+    hot: 'only',
+    port: 3000,
+  },
+
   mode: 'development', // work on development mode
-  watch: true, // continously watch the server
+  // watch: true, // continously watch the server
   module: {
     rules: [
       {
