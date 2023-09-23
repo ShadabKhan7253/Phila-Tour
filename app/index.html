@@ -7,7 +7,24 @@
   </head>
   <body>
     <div class="large-hero">
-      <img src="assets/images/hero--large.jpg" alt="" />
+      <picture>
+        <source
+          srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w"
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w"
+          media="(min-width:992px)"
+        />
+        <source
+          srcset="assets/images/hero--small.jpg 990w, assets/images/hero--small-hi-dpi.jpg 1920w"
+          media="(min-width:768px)"
+        />
+        <img
+          srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280"
+          alt=""
+        />
+      </picture>
       <div class="large-hero__text-content">
         <h1 class="large-hero__title">Your Clarity</h1>
         <h2 class="large-hero__subtitle">One trip away</h2>
