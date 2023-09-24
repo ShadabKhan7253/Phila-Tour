@@ -1,6 +1,8 @@
 .primary-nav {
-  &__pull-right {
-    float: right;
+  @mixin atMedium {
+    &__pull-right {
+      float: right;
+    }
   }
   ul {
     margin-top: 10px;
