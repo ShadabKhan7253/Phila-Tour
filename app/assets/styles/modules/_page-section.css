@@ -18,4 +18,8 @@
   &__blue {
     background-color: $mainBlue;
   }
+
+  &__testimonials {
+    background-color: #e0e6ef;
+  }
 }

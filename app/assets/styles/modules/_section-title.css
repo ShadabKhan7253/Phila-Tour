@@ -12,4 +12,10 @@
   &__white {
     color: $white;
   }
+  &__blue {
+    color: $mainBlue;
+  }
+  &__testimonial {
+    margin-bottom: 6rem;
+  }
 }

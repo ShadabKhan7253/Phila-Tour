@@ -8,5 +8,9 @@
 @import 'modules/_page-section';
 @import 'modules/_headine';
 @import 'modules/_large-hero';
+@import 'modules/_header';
+@import 'modules/_primary-nav';
 @import 'modules/_features';
 @import 'modules/_section-title';
+@import 'modules/_testimonials';
+@import 'modules/_footer';

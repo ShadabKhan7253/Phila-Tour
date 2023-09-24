@@ -9,4 +9,8 @@
   &__blue {
     background-color: $mainBlue;
   }
+  &__orange:hover {
+    background-color: #fff;
+    color: $mainBlue;
+  }
 }
