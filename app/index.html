@@ -9,7 +9,11 @@
     <div class="header">
       <div class="container">
         <div class="header__logo">
-          <img src="assets/images/icons/clear-view-escapes.svg" alt="" class="header__logo-image" />
+          <img
+            data-src="assets/images/icons/clear-view-escapes.svg"
+            alt=""
+            class="header__logo-image lazyload"
+          />
           <h1 class="header__logo-text">Clear View Escapes</h1>
         </div>
         <div class="header__menu-icon">
@@ -44,10 +48,11 @@
           media="(min-width:768px)"
         />
         <img
-          srcset="
+          data-srcset="
             assets/images/hero--smaller.jpg         640w,
             assets/images/hero--smaller-hi-dpi.jpg 1280w
           "
+          class="lazyload"
         />
       </picture>
       <div class="large-hero__text-content">
@@ -80,12 +85,13 @@
               <!-- img url k baaad is screen size -->
               <img
                 sizes="(min-width:970px) 976px,(min-width:1100px) 100% "
-                srcset="
+                data-srcset="
                   assets/images/first-trip-low-res.jpg  565w,
                   assets/images/first-trip.jpg          976w,
                   assets/images/first-trip-hi-dpi.jpg  1925w
                 "
                 alt=""
+                class="lazyload"
               />
             </div>
           </div>
@@ -105,11 +111,12 @@
                 media="(min-width:800px)"
               />
               <img
-                srcset="
+                data-srcset="
                   assets/images/our-start-landscape.jpg         800w,
                   assets/images/our-start-landscape-hi-dpi.jpg 1600w
                 "
                 alt=""
+                class="lazyload"
               />
             </picture>
           </div>
@@ -142,7 +149,11 @@
         <div class="row generic-typography justify-content-evenly">
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="feature-item">
-              <img src="./assets/images/icons/rain.svg" alt="" class="feature-item__icon" />
+              <img
+                data-src="./assets/images/icons/rain.svg"
+                alt=""
+                class="feature-item__icon lazyload"
+              />
               <h3 class="feature-item__title">Global Guides</h3>
               <p class="feature-item__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestiae quia
@@ -153,7 +164,11 @@
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="feature-item">
-              <img src="./assets/images/icons/globe.svg" alt="" class="feature-item__icon" />
+              <img
+                data-src="./assets/images/icons/globe.svg"
+                alt=""
+                class="feature-item__icon lazyload"
+              />
               <h3 class="feature-item__title">Global Guides</h3>
               <p class="feature-item__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestiae quia
@@ -166,7 +181,11 @@
         <div class="row generic-typography justify-content-evenly">
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="feature-item">
-              <img src="./assets/images/icons/star.svg" alt="" class="feature-item__icon" />
+              <img
+                data-src="./assets/images/icons/star.svg"
+                alt=""
+                class="feature-item__icon lazyload"
+              />
               <h3 class="feature-item__title">Global Guides</h3>
               <p class="feature-item__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestiae quia
@@ -177,7 +196,11 @@
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="feature-item">
-              <img src="./assets/images/icons/wifi.svg" alt="" class="feature-item__icon" />
+              <img
+                data-src="./assets/images/icons/wifi.svg"
+                alt=""
+                class="feature-item__icon lazyload"
+              />
               <h3 class="feature-item__title">Global Guides</h3>
               <p class="feature-item__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestiae quia
@@ -207,7 +230,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="testimonial">
             <div class="testimonial__image">
-              <img src="./assets/images/testimonial-john.jpg" alt="" />
+              <img data-src="./assets/images/testimonial-john.jpg" alt="" class="lazyload" />
             </div>
             <h3 class="testimonial__title">John Doe</h3>
             <h3 class="testimonial__subtitle">9 Time Escaper</h3>
@@ -227,7 +250,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="testimonial">
             <div class="testimonial__image">
-              <img src="./assets/images/testimonial-jane.jpg" alt="" />
+              <img data-src="./assets/images/testimonial-jane.jpg" alt="" class="lazyload" />
             </div>
             <h3 class="testimonial__title">Jane Hopper</h3>
             <h3 class="testimonial__subtitle">9 Time Escaper</h3>
@@ -247,7 +270,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="testimonial">
             <div class="testimonial__image">
-              <img src="./assets/images/testimonial-cat.jpg" alt="" />
+              <img data-src="./assets/images/testimonial-cat.jpg" alt="" class="lazyload" />
             </div>
             <h3 class="testimonial__title">Cat Doe</h3>
             <h3 class="testimonial__subtitle">9 Time Escaper</h3>

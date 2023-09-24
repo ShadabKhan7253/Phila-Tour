@@ -1,4 +1,5 @@
 import '../styles/style.css';
+import lazySizes from 'lazysizes';
 import $ from 'jquery';
 import MobileHeader from './modules/MobileHeader';
 import RevealOnScroll from './modules/RevealOnScroll';
