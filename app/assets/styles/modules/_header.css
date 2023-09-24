@@ -8,6 +8,10 @@
   @mixin atMedium {
     position: fixed;
     background-color: rgba(47, 48, 114, 0.5);
+
+    &__dard {
+      background-color: rgba(47, 48, 114, 0.05);
+    }
   }
 
   &__is-expanded {
@@ -37,6 +41,9 @@
     @mixin atMedium {
       left: auto;
       transform: translateX(0);
+      &-small {
+        transform: scale(0.8);
+      }
     }
   }
   &__menu-container {
